@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: alkatra;
+    src: url(Alkatra/Alkatra-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/3295969.jpg);
+    background-size: cover;
+    font-size: 1.5rem
+}
+
+h1 {
+    font-family: alkatra;
+    font-size: 50px;
+    color: #0B43CA;
+    text-shadow: 3px 3px 3px #6d05ce;
+    margin-bottom: 2rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f8f8f8;
+}
+
+/*Area dos botões */
+
+input {
+    font-family: alkatra;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 8px solid #ffffff;
+    margin-bottom: 2rem;
+}
+
+input:hover {
+    background-color: #0B43CA;
+    border: 8px solid #0B43CA;
+    color: #ffffff;
+}
+
+.btn-buscar {
+    font-family: alkatra;
+    width: 100px;
+    height: 50px;
+    background: #ffffff;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-buscar:hover {
+    background: #00fd3f;
+    border: 10px solid #00fd3f;
+    color: #ffffff;
+}
+
+.btn-mostrar {
+    font-family: alkatra;
+    width: 110px;
+    height: 60px;
+    background: #ffffff;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn-mostrar:hover {
+    background: #0B43CA;
+    border: 10px solid #0B43CA;
+    color: #ffffff;
+}
+
+.btn-esconder {
+    font-family: alkatra;
+    width: 110px;
+    height: 60px;
+    background: #ffffff;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn-esconder:hover {
+    background: #0B43CA;
+    border: 10px solid #0B43CA;
+    color: #ffffff;
+}
+
+/*Fim da área dos botões */
+
+/* Área de edição */
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.Horóscopo2 #frase {
+    max-width: 200vh;
+    padding: 2rem;
+}
+
+.Horóscopo2 {
+    margin-top: 50px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border: 5px solid #ffffff;    
+    font-family: alkatra;
+    color: #ffffff;
+    display: flex;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 2rem;   
+    align-items: center;
+}
+
+.Horóscopo2 img{
+    width: 240px;
+    height: 220px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    display: flex;
+}
+
+/* Fim da Área de edição */
+
+/* Footer */
+footer {   
+    bottom: 0;
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-family: alkatra;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+
+}
+
+span {
+    color: #0B43CA;
+}
+
+/* Fim do Footer */

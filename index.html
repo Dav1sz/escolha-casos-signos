@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/47/47255.png">
+    <title>Horóscopo</title>
+</head>
+
+<body>
+    <center>
+
+        <h1>Horóscopo Dos Signos</h1>
+        <input type="text" id="signos" list="historico" placeholder="Digite um signo">
+        <button class="btn-buscar" onclick="escolhaSigno()">Buscar</button>
+
+        <div class="botoes">
+            <button class="btn-esconder" onclick="esconde('Horós')">Esconder Informações</button>
+            <button class="btn-mostrar" onclick="mostra('Horós')">Mostrar Informações</button>
+        </div>
+
+            <datalist id="historico" >
+                <option value="Áries"></option>
+                <option value="Touro"></option>
+                <option value="Gêmeos"></option>
+                <option value="Câncer"></option>
+                <option value="Leão"></option>
+                <option value="Virgem"></option>
+                <option value="Libra"></option>
+                <option value="Escopião"></option>
+                <option value="Sargitário"></option>
+                <option value="Capricórnio"></option>
+                <option value="Aquário"></option>
+                <option value="Peixes"></option>
+            </datalist>
+
+            <main class="container">
+
+            <div class="Horóscopo" id="Horós">
+                <div class="imagem"><img src="" alt="" id="img1"></div>
+                <div id="frase"></div>
+            </div>
+
+        </main>
+
+    </center>
+
+    <br>
+
+    <footer>
+        <p>Feito por Davi dos santos - <span>Gmail: davisantos2577@gmail.com</span></p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
